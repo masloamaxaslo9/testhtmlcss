@@ -1,0 +1,190 @@
+html {
+  font-size: 14px;
+}
+
+.wraper {
+  margin: 0 auto;
+  max-width: 1024px;
+  .header {
+    height: 150px;
+    padding: 24px 0 19px 0;
+    .image_1 {
+      background-color: $dark_gray_color;
+      width: 122px;
+      height: 100%;
+      float: left;
+    }
+    .block_2 {
+      background-color: $dark_gray_color;
+      height: 100%;
+      width: 279px;
+      float: left;
+      margin: 0 23px;
+    }
+    .block_3 {
+      background-color: $dark_gray_color;
+      height: 108px;
+      width: 577px;
+      float: left;
+      padding: 25px 22px 25px;
+      p {
+        text-align: right;
+        text-decoration: underline;
+        color: $white;
+        line-height: 22px;
+      }
+    }
+  }
+  .content {
+    overflow: auto;
+    margin: 0 0 25px 0;
+    position: relative;
+    .left_sitebar {
+      height: 100%;
+      width: 184px;
+      float: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .block_4 {
+        width: 184px;
+        padding: 19px 32px 17px 13px;
+        background-color: $dark_gray_color;
+        color: $white;
+        float: left;
+        font-size: 1rem;
+        line-height: 22px;
+        strong {
+          font-weight: 700;
+        }
+      }
+    }
+    .block_7 {
+      width: 184px;
+      height: 134px;
+      background-color: $dark_gray_color;
+      position: absolute;
+      bottom: 0;
+    }
+    .right_block {
+      width: 818px;
+      background-color: $gray_color;
+      float: left;
+      margin: 0 0 19px 22px;
+      p:nth-child(1) {
+        font-family: "Arial MT", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 22px;
+        margin: 22px 70px 0 21px;
+        color: $dark_gray_color;
+      }
+      ul {
+        margin: 23px 70px 23px;
+        color: $dark_gray_color;
+        b {
+          font-weight: 700;
+        }
+      }
+      .two_text {
+        margin: 0 0 20px 21px;
+        color: $dark_gray_color;
+      }
+    }
+    .right_block_two {
+      width: 818px;
+      float: left;
+      margin: 0 0 0 22px;
+      img {
+        width: calc( 20% - 20px );
+        height: 155px;
+        background-color: $gray_color;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        &:nth-child(5n) {
+          margin-right: 0;
+          width: 20%;
+
+        }
+      }
+    }
+    .right_block_three {
+      width: calc( 100% - 206px );
+      float: left;
+      margin-left: 206px;
+      display: flex;
+      flex-direction: row;
+      div {
+        float: left;
+        width: calc( 50% - 10px );
+        padding: 23px 18px 32px 18px;
+        background-color: $gray_color;
+        color: $dark_gray_color;
+        font-family: "Arial MT", sans-serif;
+        font-size: 1rem;
+        line-height: 22px;
+        &:nth-child(1) {
+          margin-right: 10px;
+        }
+        &:nth-child(2) {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .footer {
+    margin: 23px 0 25px 0;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: calc( 33.3% - 14px );
+      float: left;
+    }
+    .footer_block_one {
+      padding: 18px 25px 17px 25px;
+      background-color: $dark_gray_color;
+      ul {
+        width: 50%;
+        float: left;
+        font-family: "Arial MT", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 22px;
+        li {
+          list-style: none;
+          color: $white;
+        }
+      }
+    }
+    .footer_block_two {
+      padding: 18px 25px 17px 25px;
+      background-color: $dark_gray_color;
+      ul {
+        li {
+          float: left;
+          font-family: "Arial MT", sans-serif;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 22px;
+          list-style: square;
+          color: $white;
+        }
+      }
+    }
+    .footer_block_three {
+      div {
+        width: 100%;
+        background-color: $dark_gray_color;
+        height: calc( 50% - 10px );
+        &:nth-child(1) {
+          margin-bottom: 10px;
+        }
+        &:nth-child(2) {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
